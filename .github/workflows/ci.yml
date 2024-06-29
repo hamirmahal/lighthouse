@@ -74,7 +74,7 @@ jobs:
         BT_API_AUTH_TOKEN: ${{ secrets.BT_API_AUTH_TOKEN }}
 
     - name: Upload dist
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: dist
         path: dist/
